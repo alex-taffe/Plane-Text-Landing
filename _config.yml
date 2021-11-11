@@ -41,7 +41,7 @@ features                                  :
 
   - title                                 : Remove Copied Formatting
     description                           : Easily remove copied formatting from the clipboard
-    fontawesome_icon_name                 : font-case
+    fontawesome_icon_name                 : font
 
   - title                                 : Adjust Shortcut
     description                           : Easily adjust keyboard shortcut
