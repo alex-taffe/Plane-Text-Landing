@@ -38,14 +38,13 @@
 	max-width: $content-width;
 	padding-left: 15px;
 	padding-right: 15px;
-	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: 115px 876px auto auto;
 	grid-column-gap: 30px;
 	grid-template-areas: 
-		"h h h h h h h h h h h h"
-		"p p p p p i i i i i i i"
-		"c c c c c c c c c c c c"
-		"f f f f f f f f f f f f";
+	"h h h h h h h h h h h h"
+	"i i i i i i i i i i i i"
+	"c c c c c c c c c c c c"
+	"f f f f f f f f f f f f";
 }
 
 .subPageContainer {
@@ -253,6 +252,7 @@ nav > ul li a:active {
 @media only screen and (max-width: 992px) {
 
 	.appInfo {
+		min-height: 600px;
 		padding-top: 50px;
 		justify-content: center;
 	}
